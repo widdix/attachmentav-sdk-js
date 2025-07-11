@@ -1,6 +1,6 @@
 {
   "name": "@widdix/attachmentav-sdk-js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A virus scan SDK for JavaScript. Scan files for viruses, trojans, and other kinds of malware with attachmentAV.",
   "main": "sdk/dist/index.js",
   "directories": {
@@ -25,5 +25,7 @@
     "url": "https://github.com/widdix/attachmentav-sdk-js/issues"
   },
   "homepage": "https://github.com/widdix/attachmentav-sdk-js#readme",
-  "files": ["sdk/dist/**/*"]
+  "files": [
+    "sdk/dist/**/*"
+  ]
 }
