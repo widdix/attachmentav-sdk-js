@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.AttachmentAv);
+    factory(root.expect, root.WiddixAttachmentavSdkJs);
   }
-}(this, function(expect, AttachmentAv) {
+}(this, function(expect, WiddixAttachmentavSdkJs) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new AttachmentAv.ScanResult();
+    instance = new WiddixAttachmentavSdkJs.ScanResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('ScanResult', function() {
     it('should create an instance of ScanResult', function() {
       // uncomment below and update the code to test ScanResult
-      //var instance = new AttachmentAv.ScanResult();
-      //expect(instance).to.be.a(AttachmentAv.ScanResult);
+      //var instance = new WiddixAttachmentavSdkJs.ScanResult();
+      //expect(instance).to.be.a(WiddixAttachmentavSdkJs.ScanResult);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instance = new AttachmentAv.ScanResult();
+      //var instance = new WiddixAttachmentavSdkJs.ScanResult();
       //expect(instance).to.be();
     });
 
     it('should have the property finding (base name: "finding")', function() {
       // uncomment below and update the code to test the property finding
-      //var instance = new AttachmentAv.ScanResult();
+      //var instance = new WiddixAttachmentavSdkJs.ScanResult();
       //expect(instance).to.be();
     });
 
     it('should have the property size (base name: "size")', function() {
       // uncomment below and update the code to test the property size
-      //var instance = new AttachmentAv.ScanResult();
+      //var instance = new WiddixAttachmentavSdkJs.ScanResult();
       //expect(instance).to.be();
     });
 
     it('should have the property realfiletype (base name: "realfiletype")', function() {
       // uncomment below and update the code to test the property realfiletype
-      //var instance = new AttachmentAv.ScanResult();
+      //var instance = new WiddixAttachmentavSdkJs.ScanResult();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# AttachmentAv.SyncDownloadScanRequest
+# WiddixAttachmentavSdkJs.SyncDownloadScanRequest
 
 ## Properties
 

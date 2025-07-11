@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.AttachmentAv);
+    factory(root.expect, root.WiddixAttachmentavSdkJs);
   }
-}(this, function(expect, AttachmentAv) {
+}(this, function(expect, WiddixAttachmentavSdkJs) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new AttachmentAv.SyncDownloadScanRequest();
+    instance = new WiddixAttachmentavSdkJs.SyncDownloadScanRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('SyncDownloadScanRequest', function() {
     it('should create an instance of SyncDownloadScanRequest', function() {
       // uncomment below and update the code to test SyncDownloadScanRequest
-      //var instance = new AttachmentAv.SyncDownloadScanRequest();
-      //expect(instance).to.be.a(AttachmentAv.SyncDownloadScanRequest);
+      //var instance = new WiddixAttachmentavSdkJs.SyncDownloadScanRequest();
+      //expect(instance).to.be.a(WiddixAttachmentavSdkJs.SyncDownloadScanRequest);
     });
 
     it('should have the property downloadUrl (base name: "download_url")', function() {
       // uncomment below and update the code to test the property downloadUrl
-      //var instance = new AttachmentAv.SyncDownloadScanRequest();
+      //var instance = new WiddixAttachmentavSdkJs.SyncDownloadScanRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property downloadHeaders (base name: "download_headers")', function() {
       // uncomment below and update the code to test the property downloadHeaders
-      //var instance = new AttachmentAv.SyncDownloadScanRequest();
+      //var instance = new WiddixAttachmentavSdkJs.SyncDownloadScanRequest();
       //expect(instance).to.be();
     });
 

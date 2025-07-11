@@ -20,7 +20,7 @@ import SyncS3ScanRequest from '../model/SyncS3ScanRequest';
 /**
 * AttachmentAV service.
 * @module api/AttachmentAVApi
-* @version 1.0.0
+* @version 0.3.0
 */
 export default class AttachmentAVApi {
 

@@ -1,4 +1,4 @@
-const attachmentav = require('../sdk/dist');
+const attachmentav = require('@widdix/attachmentav-sdk-js');
 const fs = require('fs');
 
 var defaultClient = attachmentav.ApiClient.instance;

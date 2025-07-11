@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The ScanResult model module.
  * @module model/ScanResult
- * @version 1.0.0
+ * @version 0.3.0
  */
 class ScanResult {
     /**

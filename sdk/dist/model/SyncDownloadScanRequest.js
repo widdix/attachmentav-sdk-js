@@ -29,7 +29,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 /**
  * The SyncDownloadScanRequest model module.
  * @module model/SyncDownloadScanRequest
- * @version 1.0.0
+ * @version 0.3.0
  */
 var SyncDownloadScanRequest = /*#__PURE__*/function () {
   /**

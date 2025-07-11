@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.AttachmentAv);
+    factory(root.expect, root.WiddixAttachmentavSdkJs);
   }
-}(this, function(expect, AttachmentAv) {
+}(this, function(expect, WiddixAttachmentavSdkJs) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new AttachmentAv.SyncS3ScanRequest();
+    instance = new WiddixAttachmentavSdkJs.SyncS3ScanRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('SyncS3ScanRequest', function() {
     it('should create an instance of SyncS3ScanRequest', function() {
       // uncomment below and update the code to test SyncS3ScanRequest
-      //var instance = new AttachmentAv.SyncS3ScanRequest();
-      //expect(instance).to.be.a(AttachmentAv.SyncS3ScanRequest);
+      //var instance = new WiddixAttachmentavSdkJs.SyncS3ScanRequest();
+      //expect(instance).to.be.a(WiddixAttachmentavSdkJs.SyncS3ScanRequest);
     });
 
     it('should have the property bucket (base name: "bucket")', function() {
       // uncomment below and update the code to test the property bucket
-      //var instance = new AttachmentAv.SyncS3ScanRequest();
+      //var instance = new WiddixAttachmentavSdkJs.SyncS3ScanRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property key (base name: "key")', function() {
       // uncomment below and update the code to test the property key
-      //var instance = new AttachmentAv.SyncS3ScanRequest();
+      //var instance = new WiddixAttachmentavSdkJs.SyncS3ScanRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property version (base name: "version")', function() {
       // uncomment below and update the code to test the property version
-      //var instance = new AttachmentAv.SyncS3ScanRequest();
+      //var instance = new WiddixAttachmentavSdkJs.SyncS3ScanRequest();
       //expect(instance).to.be();
     });
 

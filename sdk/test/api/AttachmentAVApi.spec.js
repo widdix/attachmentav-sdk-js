@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.AttachmentAv);
+    factory(root.expect, root.WiddixAttachmentavSdkJs);
   }
-}(this, function(expect, AttachmentAv) {
+}(this, function(expect, WiddixAttachmentavSdkJs) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new AttachmentAv.AttachmentAVApi();
+    instance = new WiddixAttachmentavSdkJs.AttachmentAVApi();
   });
 
   var getProperty = function(object, getter, property) {

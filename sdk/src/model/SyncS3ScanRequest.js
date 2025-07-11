@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The SyncS3ScanRequest model module.
  * @module model/SyncS3ScanRequest
- * @version 1.0.0
+ * @version 0.3.0
  */
 class SyncS3ScanRequest {
     /**

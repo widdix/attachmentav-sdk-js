@@ -29,7 +29,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 /**
 * AttachmentAV service.
 * @module api/AttachmentAVApi
-* @version 1.0.0
+* @version 0.3.0
 */
 var AttachmentAVApi = exports["default"] = /*#__PURE__*/function () {
   /**

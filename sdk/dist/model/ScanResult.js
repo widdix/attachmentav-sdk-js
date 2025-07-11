@@ -26,7 +26,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 /**
  * The ScanResult model module.
  * @module model/ScanResult
- * @version 1.0.0
+ * @version 0.3.0
  */
 var ScanResult = /*#__PURE__*/function () {
   /**

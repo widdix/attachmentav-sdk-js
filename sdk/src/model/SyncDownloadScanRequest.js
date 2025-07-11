@@ -16,7 +16,7 @@ import ApiClient from '../ApiClient';
 /**
  * The SyncDownloadScanRequest model module.
  * @module model/SyncDownloadScanRequest
- * @version 1.0.0
+ * @version 0.3.0
  */
 class SyncDownloadScanRequest {
     /**

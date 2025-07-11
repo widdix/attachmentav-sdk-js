@@ -1,4 +1,4 @@
-# AttachmentAv.ScanResult
+# WiddixAttachmentavSdkJs.ScanResult
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# AttachmentAv.AttachmentAVApi
+# WiddixAttachmentavSdkJs.AttachmentAVApi
 
 All URIs are relative to *https://eu.developer.attachmentav.com/v1*
 
@@ -22,15 +22,15 @@ Upload a file, scan the file, and return the scan result.
 ### Example
 
 ```javascript
-import AttachmentAv from 'attachment_av';
-let defaultClient = AttachmentAv.ApiClient.instance;
+import WiddixAttachmentavSdkJs from '@widdix/attachmentav-sdk-js';
+let defaultClient = WiddixAttachmentavSdkJs.ApiClient.instance;
 // Configure API key authorization: apiKeyAuth
 let apiKeyAuth = defaultClient.authentications['apiKeyAuth'];
 apiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //apiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new AttachmentAv.AttachmentAVApi();
+let apiInstance = new WiddixAttachmentavSdkJs.AttachmentAVApi();
 let body = "/path/to/file"; // File | 
 apiInstance.scanSyncBinaryPost(body, (error, data, response) => {
   if (error) {
@@ -73,16 +73,16 @@ Download a file from a remote location (HTTP/HTTPS), scan the file, and return t
 ### Example
 
 ```javascript
-import AttachmentAv from 'attachment_av';
-let defaultClient = AttachmentAv.ApiClient.instance;
+import WiddixAttachmentavSdkJs from '@widdix/attachmentav-sdk-js';
+let defaultClient = WiddixAttachmentavSdkJs.ApiClient.instance;
 // Configure API key authorization: apiKeyAuth
 let apiKeyAuth = defaultClient.authentications['apiKeyAuth'];
 apiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //apiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new AttachmentAv.AttachmentAVApi();
-let syncDownloadScanRequest = new AttachmentAv.SyncDownloadScanRequest(); // SyncDownloadScanRequest | 
+let apiInstance = new WiddixAttachmentavSdkJs.AttachmentAVApi();
+let syncDownloadScanRequest = new WiddixAttachmentavSdkJs.SyncDownloadScanRequest(); // SyncDownloadScanRequest | 
 apiInstance.scanSyncDownloadPost(syncDownloadScanRequest, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -124,15 +124,15 @@ Upload a file, scan the file, and return the scan result.
 ### Example
 
 ```javascript
-import AttachmentAv from 'attachment_av';
-let defaultClient = AttachmentAv.ApiClient.instance;
+import WiddixAttachmentavSdkJs from '@widdix/attachmentav-sdk-js';
+let defaultClient = WiddixAttachmentavSdkJs.ApiClient.instance;
 // Configure API key authorization: apiKeyAuth
 let apiKeyAuth = defaultClient.authentications['apiKeyAuth'];
 apiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //apiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new AttachmentAv.AttachmentAVApi();
+let apiInstance = new WiddixAttachmentavSdkJs.AttachmentAVApi();
 let file = null; // File | 
 apiInstance.scanSyncFormPost(file, (error, data, response) => {
   if (error) {
@@ -175,16 +175,16 @@ Download a file from S3, scan the file, and return the scan result. A bucket pol
 ### Example
 
 ```javascript
-import AttachmentAv from 'attachment_av';
-let defaultClient = AttachmentAv.ApiClient.instance;
+import WiddixAttachmentavSdkJs from '@widdix/attachmentav-sdk-js';
+let defaultClient = WiddixAttachmentavSdkJs.ApiClient.instance;
 // Configure API key authorization: apiKeyAuth
 let apiKeyAuth = defaultClient.authentications['apiKeyAuth'];
 apiKeyAuth.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //apiKeyAuth.apiKeyPrefix = 'Token';
 
-let apiInstance = new AttachmentAv.AttachmentAVApi();
-let syncS3ScanRequest = new AttachmentAv.SyncS3ScanRequest(); // SyncS3ScanRequest | 
+let apiInstance = new WiddixAttachmentavSdkJs.AttachmentAVApi();
+let syncS3ScanRequest = new WiddixAttachmentavSdkJs.SyncS3ScanRequest(); // SyncS3ScanRequest | 
 apiInstance.scanSyncS3Post(syncS3ScanRequest, (error, data, response) => {
   if (error) {
     console.error(error);
