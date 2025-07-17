@@ -1,4 +1,4 @@
-# WiddixAttachmentavSdkJs.ScanResult
+# @attachmentav/virus-scan-sdk-js.ScanResult
 
 ## Properties
 

@@ -1,8 +1,9 @@
 .babelrc
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
+docs/AsyncDownloadScanRequest.md
+docs/AsyncS3ScanRequest.md
 docs/AttachmentAVApi.md
 docs/ScanResult.md
 docs/SyncDownloadScanRequest.md
@@ -13,10 +14,8 @@ package.json
 src/ApiClient.js
 src/api/AttachmentAVApi.js
 src/index.js
+src/model/AsyncDownloadScanRequest.js
+src/model/AsyncS3ScanRequest.js
 src/model/ScanResult.js
 src/model/SyncDownloadScanRequest.js
 src/model/SyncS3ScanRequest.js
-test/api/AttachmentAVApi.spec.js
-test/model/ScanResult.spec.js
-test/model/SyncDownloadScanRequest.spec.js
-test/model/SyncS3ScanRequest.spec.js

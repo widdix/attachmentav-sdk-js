@@ -9,6 +9,18 @@ Object.defineProperty(exports, "ApiClient", {
     return _ApiClient["default"];
   }
 });
+Object.defineProperty(exports, "AsyncDownloadScanRequest", {
+  enumerable: true,
+  get: function get() {
+    return _AsyncDownloadScanRequest["default"];
+  }
+});
+Object.defineProperty(exports, "AsyncS3ScanRequest", {
+  enumerable: true,
+  get: function get() {
+    return _AsyncS3ScanRequest["default"];
+  }
+});
 Object.defineProperty(exports, "AttachmentAVApi", {
   enumerable: true,
   get: function get() {
@@ -34,6 +46,8 @@ Object.defineProperty(exports, "SyncS3ScanRequest", {
   }
 });
 var _ApiClient = _interopRequireDefault(require("./ApiClient"));
+var _AsyncDownloadScanRequest = _interopRequireDefault(require("./model/AsyncDownloadScanRequest"));
+var _AsyncS3ScanRequest = _interopRequireDefault(require("./model/AsyncS3ScanRequest"));
 var _ScanResult = _interopRequireDefault(require("./model/ScanResult"));
 var _SyncDownloadScanRequest = _interopRequireDefault(require("./model/SyncDownloadScanRequest"));
 var _SyncS3ScanRequest = _interopRequireDefault(require("./model/SyncS3ScanRequest"));

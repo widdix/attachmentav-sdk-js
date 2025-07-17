@@ -1,4 +1,4 @@
-# WiddixAttachmentavSdkJs.SyncDownloadScanRequest
+# @attachmentav/virus-scan-sdk-js.SyncDownloadScanRequest
 
 ## Properties
 

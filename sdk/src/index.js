@@ -1,6 +1,6 @@
 /**
  * attachmentAV
- * Scan files for viruses, trojans, and other kinds of malware.
+ * An SDK to integrate virus and malware scan capabilities into JavaScript applications. Scan files for viruses, trojans, and other kinds of malware with attachmentAV powered by Sophos.
  *
  * The version of the OpenAPI document: 1.0.0
  * 
@@ -13,6 +13,8 @@
 
 
 import ApiClient from './ApiClient';
+import AsyncDownloadScanRequest from './model/AsyncDownloadScanRequest';
+import AsyncS3ScanRequest from './model/AsyncS3ScanRequest';
 import ScanResult from './model/ScanResult';
 import SyncDownloadScanRequest from './model/SyncDownloadScanRequest';
 import SyncS3ScanRequest from './model/SyncS3ScanRequest';
@@ -20,14 +22,14 @@ import AttachmentAVApi from './api/AttachmentAVApi';
 
 
 /**
-* Scan files for viruses, trojans, and other kinds of malware..<br>
+* An SDK to integrate virus and malware scan capabilities into JavaScript applications. Scan files for viruses, trojans, and other kinds of malware with attachmentAV powered by Sophos..<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var WiddixAttachmentavSdkJs = require('index'); // See note below*.
-* var xxxSvc = new WiddixAttachmentavSdkJs.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new WiddixAttachmentavSdkJs.Yyy(); // Construct a model instance.
+* var @attachmentav/virus-scan-sdk-js = require('index'); // See note below*.
+* var xxxSvc = new @attachmentav/virus-scan-sdk-js.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new @attachmentav/virus-scan-sdk-js.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -39,8 +41,8 @@ import AttachmentAVApi from './api/AttachmentAVApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new WiddixAttachmentavSdkJs.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new WiddixAttachmentavSdkJs.Yyy(); // Construct a model instance.
+* var xxxSvc = new @attachmentav/virus-scan-sdk-js.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new @attachmentav/virus-scan-sdk-js.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -48,7 +50,7 @@ import AttachmentAVApi from './api/AttachmentAVApi';
 * </pre>
 * </p>
 * @module index
-* @version 0.3.0
+* @version 0.1.0
 */
 export {
     /**
@@ -56,6 +58,18 @@ export {
      * @property {module:ApiClient}
      */
     ApiClient,
+
+    /**
+     * The AsyncDownloadScanRequest model constructor.
+     * @property {module:model/AsyncDownloadScanRequest}
+     */
+    AsyncDownloadScanRequest,
+
+    /**
+     * The AsyncS3ScanRequest model constructor.
+     * @property {module:model/AsyncS3ScanRequest}
+     */
+    AsyncS3ScanRequest,
 
     /**
      * The ScanResult model constructor.

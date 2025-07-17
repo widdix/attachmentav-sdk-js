@@ -16,7 +16,7 @@ function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), 
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
 function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); } /**
  * attachmentAV
- * Scan files for viruses, trojans, and other kinds of malware.
+ * An SDK to integrate virus and malware scan capabilities into JavaScript applications. Scan files for viruses, trojans, and other kinds of malware with attachmentAV powered by Sophos.
  *
  * The version of the OpenAPI document: 1.0.0
  * 
@@ -29,7 +29,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 /**
  * The SyncDownloadScanRequest model module.
  * @module model/SyncDownloadScanRequest
- * @version 0.3.0
+ * @version 0.1.0
  */
 var SyncDownloadScanRequest = /*#__PURE__*/function () {
   /**

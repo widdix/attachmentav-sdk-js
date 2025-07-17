@@ -1,6 +1,6 @@
 /**
  * attachmentAV
- * Scan files for viruses, trojans, and other kinds of malware.
+ * An SDK to integrate virus and malware scan capabilities into JavaScript applications. Scan files for viruses, trojans, and other kinds of malware with attachmentAV powered by Sophos.
  *
  * The version of the OpenAPI document: 1.0.0
  * 
@@ -16,7 +16,7 @@ import superagent from "superagent";
 
 /**
 * @module ApiClient
-* @version 0.3.0
+* @version 0.1.0
 */
 
 /**
@@ -45,7 +45,8 @@ class ApiClient {
          * @type {Array.<String>}
          */
         this.authentications = {
-            'apiKeyAuth': {type: 'apiKey', 'in': 'header', name: 'x-api-key'}
+            'apiKeyAuth': {type: 'apiKey', 'in': 'header', name: 'x-api-key'},
+            'bearerAuth': {type: 'bearer'}
         }
 
 	/**
@@ -54,7 +55,7 @@ class ApiClient {
          * @default {}
          */
         this.defaultHeaders = {
-            'User-Agent': 'OpenAPI-Generator/0.3.0/Javascript'
+            'User-Agent': 'OpenAPI-Generator/0.1.0/Javascript'
         };
 
         /**
