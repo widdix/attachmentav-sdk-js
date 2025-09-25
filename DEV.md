@@ -10,20 +10,24 @@ openapi-generator generate -i api.yml -g javascript -o ./sdk --additional-proper
 
 Then, build the final version.
 
-```
-cd sdk
+```bash
+cd sdk/
 npm run build
 ```
 
 Check for updates.
 
-```
+```bash
+cd sdk/
 npm outdated
 ```
 
 ## Publish
 
-```
-cd sdk
+```bash
+cd sdk/
 cp ../README.md .
+npm version minor
+git push
 npm publish --access public
+```
