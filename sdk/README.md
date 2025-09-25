@@ -7,7 +7,7 @@ An SDK to integrate virus and malware scan capabilities into JavaScript applicat
 First, install the module.
 
 ```sh
-npm i @widdix/attachmentav-sdk-js
+npm i @attachmentav/virus-scan-sdk-js
 ```
 
 Second, get an API key by [subscribubg to the attachmentAV API (SaaS)](https://attachmentav.com/subscribe/api/).
@@ -15,7 +15,7 @@ Second, get an API key by [subscribubg to the attachmentAV API (SaaS)](https://a
 Third, send scan request. Make sure, to replace the `API_KEY_PLACEHOLDER` placeholder.
 
 ```js
-const { ApiClient, AttachmentAVApi }  = require('@widdix/attachmentav-sdk-js');
+const { ApiClient, AttachmentAVApi }  = require('@attachmentav/virus-scan-sdk-js');
 const fs = require('fs');
 
 const ATTACHMENTAV_API_KEY = '<API_KEY_PLACEHOLDER>';
@@ -54,7 +54,7 @@ attachmentAV raises the bar for information security. Our solution is ISO 27001 
 ## Install SDK
 
 ```sh
-npm i @widdix/attachmentav-sdk-js
+npm i @attachmentav/virus-scan-sdk-js
 ```
 
 ## Configure SDK
@@ -64,7 +64,7 @@ npm i @widdix/attachmentav-sdk-js
 An [active subscription and API key](https://attachmentav.com/help/virus-malware-scan-api/setup-guide/#api-key) is required. Replace `<API_KEY_PLACEHOLDER>` with the API key.
 
 ```javascript
-const { ApiClient, AttachmentAVApi }  = require('@widdix/attachmentav-sdk-js');
+const { ApiClient, AttachmentAVApi }  = require('@attachmentav/virus-scan-sdk-js');
 const fs = require('fs');
 
 const ATTACHMENTAV_API_KEY = '<API_KEY_PLACEHOLDER>';
@@ -81,7 +81,7 @@ const api = new AttachmentAVApi()
 When following the setup guide, you specified the `ApiKeys` parameter for the CloudFormation stack. Replace `<API_KEY_PLACEHOLDER>` with one of those keys. 
 
 ```javascript
-const { ApiClient, AttachmentAVApi }  = require('@widdix/attachmentav-sdk-js');
+const { ApiClient, AttachmentAVApi }  = require('@attachmentav/virus-scan-sdk-js');
 const fs = require('fs');
 
 const ATTACHMENTAV_API_KEY = '<API_KEY_PLACEHOLDER>';

@@ -1,4 +1,4 @@
-const attachmentav = require('@widdix/attachmentav-sdk-js');
+const attachmentav = require('@attachmentav/virus-scan-sdk-js');
 const fs = require('fs');
 
 var defaultClient = attachmentav.ApiClient.instance;
