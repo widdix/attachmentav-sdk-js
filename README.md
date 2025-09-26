@@ -1,5 +1,7 @@
 # attachmentav-sdk-js
 
+> Project is deprecated. Instead, use https://github.com/widdix/attachmentav-sdk-ts!
+
 An SDK to integrate virus and malware scan capabilities into JavaScript applications. Scan files for viruses, trojans, and other kinds of malware with [attachmentAV](https://attachmentav.com) powered by Sophos.
 
 ## Getting started
